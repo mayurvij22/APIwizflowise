@@ -1,10 +1,6 @@
-// src/controllers/layout/dagreLayout.js
+
 import dagre from "@dagrejs/dagre";
 
-/**
- * Layout nodes/edges using dagre.
- * Direction: 'TB' | 'BT' | 'LR' | 'RL'
- */
 export function layoutWithDagre(nodes, edges, direction = "TB") {
   const g = new dagre.graphlib.Graph();
   g.setGraph({ rankdir: direction });

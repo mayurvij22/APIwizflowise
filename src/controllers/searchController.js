@@ -1,4 +1,3 @@
-// src/controllers/searchController.js
 
 /**
  * Normalize a JSONPath-like input into a canonical, dot-notation path:

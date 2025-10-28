@@ -1,4 +1,3 @@
-// src/controllers/jsonController.js
 
 let nodeIdCounter = 1;
 
